@@ -1,14 +1,12 @@
 # Assignment
 
-Certainly! Here's a more detailed and human-sounding description for your README file:
 
----
 
 ### Approach
 
-In creating this project, my primary goal was to balance both functionality and aesthetics. I wanted to ensure that the website was not only visually appealing but also highly usable and responsive. To achieve this, I adopted a design-first approach, starting with wireframes and prototypes using Figma. This allowed me to iterate on the design quickly and gather feedback before diving into the actual development.
+My primary goal in creating this project was to balance functionality and aesthetics. I wanted to ensure that the website was visually appealing, highly usable, and responsive. To achieve this, I adopted a design-first approach, starting with wireframes and prototypes using Figma. This allowed me to iterate on the design quickly and gather feedback before diving into the development.
 
-Once the design was solidified, I implemented the frontend using a combination of HTML, CSS (with Tailwind CSS for utility-first styling), and JavaScript. Tailwind CSS was particularly helpful in maintaining a consistent design system across the website, enabling rapid styling without writing a lot of custom CSS. For smooth scrolling and a more polished user experience, I integrated libraries like Smooth Scroll.
+Once the design was solidified, I implemented the front end using a combination of HTML, CSS (with Tailwind CSS for utility-first styling), and JavaScript. Tailwind CSS was particularly helpful in maintaining a consistent design system across the website, enabling rapid styling without writing a lot of custom CSS. For smooth scrolling and a more polished user experience, I integrated libraries like Smooth Scroll.
 
 ### Challenges
 
