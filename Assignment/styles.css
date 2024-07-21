@@ -1,0 +1,40 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+/* Custom Styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+header a:hover {
+    color: #1d4ed8;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    color: #1f2937;
+}
+
+section p {
+    color: #4b5563;
+}
+
+form input:focus {
+    border-color: #3b82f6;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+

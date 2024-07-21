@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Development Service</title>
+    <meta name="description" content="Professional App Development Services for iOS, Android, and Web platforms.">
+    <meta name="keywords" content="App Development, iOS, Android, Web Development, UI/UX Design">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Hero Section -->
+    <header id="hero" class="bg-white shadow sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-8 flex items-center justify-between">
+            <h1 class="text-3xl font-bold">App Development Service</h1>
+            <nav class="space-x-4">
+                <a href="#services" class="text-gray-600 hover:text-blue-500 transition">Services</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-500 transition">Projects</a>
+                <a href="#team" class="text-gray-600 hover:text-blue-500 transition">Team</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-500 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-4xl font-bold mb-4">User-Centric Excellence: Our App Development Services Tackle Your Pain Points</h2>
+                    <p class="mb-6">Experience Tailored Digital Solutions with a Proven Track Record of Success</p>
+                    <form id="contact-form" class="bg-white shadow-md rounded p-6" onsubmit="validateForm(event)">
+                        <div class="mb-4">
+                            <label class="block text-gray-700 mb-2">Your Name</label>
+                            <input id="name" class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" type="text" placeholder="Enter your name">
+                            <p id="name-error" class="text-red-500 hidden">Please enter your name.</p>
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 mb-2">Your Email</label>
+                            <input id="email" class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" type="email" placeholder="Enter your email">
+                            <p id="email-error" class="text-red-500 hidden">Please enter a valid email.</p>
+                        </div>
+                        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">Submit</button>
+                    </form>
+                </div>
+                <div class="w-full md:w-1/2 mt:4">
+                    <img src="Assets/app.png" alt="App Development" class="w-full rounded-lg shadow-md mt-40">
+                </div>
+                
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">Full Development Cycle</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">iOS Development</h3>
+                    <p>Details about iOS development.</p>
+                </div>
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Android Development</h3>
+                    <p>Details about Android development.</p>
+                </div>
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                    <p>Details about web development.</p>
+                </div>
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+                    <p>Details about UI/UX design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">Projects We Are Proud Of</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white shadow rounded p-6 hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                    <p>Details about Project 1.</p>
+                </div>
+                <div class="bg-white shadow rounded p-6 hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                    <p>Details about Project 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stages Section -->
+    <section id="stages" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">Application Development Stages</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Analysis</h3>
+                    <p>Details about analysis stage.</p>
+                </div>
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Development</h3>
+                    <p>Details about development stage.</p>
+                </div>
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">Testing</h3>
+                    <p>Details about testing stage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">Our Team</h2>
+            <div class="flex items-center">
+                <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                    <p class="text-lg">We are a dedicated team with over 7 years of experience in app development.</p>
+                </div>
+                <div class="w-full md:w-1/2 mt-4">
+                    <img src="Assets/team.jpeg" alt="Our Team" class="w-full rounded-lg shadow-md">
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">FAQ</h2>
+            <div class="space-y-4">
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">What is the cost of a mobile application?</h3>
+                    <p>Details about the cost of a mobile application.</p>
+                </div>
+                <div class="p-4 bg-white shadow rounded hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold mb-2">How long will development take?</h3>
+                    <p>Details about the development timeline.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div id="contact" class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2024 My Company. All rights reserved.</p>
+                <div class="space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
